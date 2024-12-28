@@ -1,0 +1,50 @@
+#data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#data-table th, #data-table td {
+  border: 1px solid #acabab;
+  padding: 8px;
+  text-align: center;
+}
+
+#data-table tbody tr:hover {
+  cursor: pointer;
+  background-color: #f0f0f0;
+}
+
+#chart-container {
+  width: 100%;
+  padding: 20px;
+  display: none;
+  text-align: center;
+}
+
+table#data-table {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+span {
+  padding-left: 20px;
+}
+
+canvas {
+  max-width: 600px;
+  max-height: 400px;
+  margin: 0 auto;
+  display: block;
+}
+
+#chart{
+ height: 600px; 
+}
+
+tr[data-id="1"] [data-id="3"] {
+  background-color: #f0f0f0; 
+}
+
+table tr{
+  background-color: #f0f0f0; 
+}
